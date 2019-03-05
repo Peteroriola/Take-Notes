@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		A751EA3E222E7E8800ED052B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A751EA3D222E7E8800ED052B /* AppDelegate.swift */; };
-		A751EA40222E7E8800ED052B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A751EA3F222E7E8800ED052B /* ViewController.swift */; };
+		A751EA40222E7E8800ED052B /* ComposeNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A751EA3F222E7E8800ED052B /* ComposeNoteViewController.swift */; };
 		A751EA43222E7E8800ED052B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A751EA41222E7E8800ED052B /* Main.storyboard */; };
 		A751EA46222E7E8800ED052B /* Take_Notes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A751EA44222E7E8800ED052B /* Take_Notes.xcdatamodeld */; };
 		A751EA48222E7E9100ED052B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A751EA47222E7E9100ED052B /* Assets.xcassets */; };
 		A751EA4B222E7E9100ED052B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A751EA49222E7E9100ED052B /* LaunchScreen.storyboard */; };
+		A751EA53222E810600ED052B /* NoteListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A751EA52222E810600ED052B /* NoteListTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A751EA3A222E7E8800ED052B /* Take Notes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Take Notes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A751EA3D222E7E8800ED052B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A751EA3F222E7E8800ED052B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A751EA3F222E7E8800ED052B /* ComposeNoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeNoteViewController.swift; sourceTree = "<group>"; };
 		A751EA42222E7E8800ED052B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A751EA45222E7E8800ED052B /* Take_Notes.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Take_Notes.xcdatamodel; sourceTree = "<group>"; };
 		A751EA47222E7E9100ED052B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A751EA4A222E7E9100ED052B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A751EA4C222E7E9100ED052B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A751EA52222E810600ED052B /* NoteListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteListTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +59,8 @@
 			isa = PBXGroup;
 			children = (
 				A751EA3D222E7E8800ED052B /* AppDelegate.swift */,
-				A751EA3F222E7E8800ED052B /* ViewController.swift */,
+				A751EA52222E810600ED052B /* NoteListTableViewController.swift */,
+				A751EA3F222E7E8800ED052B /* ComposeNoteViewController.swift */,
 				A751EA41222E7E8800ED052B /* Main.storyboard */,
 				A751EA47222E7E9100ED052B /* Assets.xcassets */,
 				A751EA49222E7E9100ED052B /* LaunchScreen.storyboard */,
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A751EA40222E7E8800ED052B /* ViewController.swift in Sources */,
+				A751EA40222E7E8800ED052B /* ComposeNoteViewController.swift in Sources */,
 				A751EA3E222E7E8800ED052B /* AppDelegate.swift in Sources */,
 				A751EA46222E7E8800ED052B /* Take_Notes.xcdatamodeld in Sources */,
+				A751EA53222E810600ED052B /* NoteListTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
